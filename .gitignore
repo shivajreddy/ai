@@ -1,0 +1,137 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+/target
+/classes
+/checkouts
+profiles.clj
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+/.prepl-port
+/.cpcache
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+############################
+# Virtual Environments
+############################
+.venv/
+venv/
+env/
+ENV/
+
+############################
+# Environment & Secrets
+############################
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+
+############################
+# Jupyter / Notebooks
+############################
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+############################
+# LangChain / LangGraph / LLM
+############################
+# LangGraph state & checkpoints
+.langgraph/
+langgraph_checkpoints/
+
+# LangChain caches
+.langchain/
+langchain.db
+
+# LLM caches
+.cache/
+.cache/langchain/
+.cache/openai/
+.cache/huggingface/
+.cache/torch/
+
+############################
+# Models & Embeddings
+############################
+models/
+checkpoints/
+embeddings/
+vectorstore/
+faiss_index/
+*.faiss
+*.index
+
+############################
+# HuggingFace
+############################
+.hf/
+.huggingface/
+hf_cache/
+
+############################
+# PyTorch / ML
+############################
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+############################
+# Logs & Traces
+############################
+logs/
+*.log
+traces/
+*.trace
+
+############################
+# Evaluation / Experiments
+############################
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+############################
+# OS / Editor
+############################
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+############################
+# Testing
+############################
+.pytest_cache/
+.coverage
+htmlcov/
+
+############################
+# Misc
+############################
+tmp/
+temp/
